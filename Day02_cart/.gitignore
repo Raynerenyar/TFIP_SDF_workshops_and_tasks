@@ -1,0 +1,4 @@
+classes/**
+.vscode/
+*.db
+*.jar

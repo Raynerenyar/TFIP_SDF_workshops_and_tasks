@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListClient",
+            "request": "launch",
+            "mainClass": "day06.ListClient",
+            "projectName": "day06_client_server_thread_b585cff3",
+            "args": "10 100 localhost 8080"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListServer",
+            "request": "launch",
+            "mainClass": "day06.ListServer",
+            "projectName": "day06_client_server_thread_b585cff3",
+            "args": "8080"
+        }
+    ]
+}
